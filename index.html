@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css.css">
+        <title>Document</title>
+    </head>
+    <body style="background-color: pink;">
+        <div id="main">
+            <div id="home">
+                <h1>Escolha sua opção de hoje</h1>
+                <div id="conjuntohome">
+                    <div>
+                        <img src="imagens/home.png" id="imghome">
+                    </div>
+                    <div id="bots">
+                        <a href="#agenda">
+                            <button id="botagenda">
+                                <i class="fa fa-calendar w3-xlarge" id="iagenda"></i>
+                                <h3> Agendar Horário</h3>
+                            </button>
+                        </a>
+                        <a href="#valor">
+                            <button id="botvalores">
+                                <i class="fa fa-money w3-xlarge" id="ivalores"></i>
+                                <h3> Ver Valores</h3>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="agenda" class="w3-row">
+                <a href="#home" id="iconhome">
+                    <i class="fa fa-home w3-xxlarge"></i>
+                </a>
+                <h1>Escolha a data mais acessível para você</h1>
+                <div id="conjuntoagenda">
+                    <div class="w3-col ">
+                        <img src="imagens/agenda.png" id="imgagenda">
+                    </div>
+                    <div class="w3-col">
+                        <form>
+                            <input type="date" name="Agenda" id="date">
+                            <br>
+                            <input placeholder="Nome" type="text">
+                            <br>
+                            <input placeholder="Endereço" type="text">
+                            <br>
+                            <input placeholder="Qual vai brilhar?" type="text">
+                            <br>
+                            <button>
+                                <p id="hora">Horário</p>
+                                <input type="time" id="time">
+                            </button>
+                            <br>
+                        </form>
+                        <div>
+                            <a href="#valor">
+                                <button style="border-radius: 100px; background-color: deeppink;" id="botv">
+                                    <p>Confirmar valores</p>
+                                </button>
+                            </a>
+                            <a href="#home">
+                                <button style="border-radius: 100px; background-color: deeppink;">
+                                    <p>Enviar agendamento</p>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="valor" class="w3-row">
+                <a href="#home" id="iconhomev">
+                    <i class="fa fa-home w3-xxlarge"></i>
+                </a>
+                <br>
+                <h1>Escolha qual vai brilhar</h1>
+                <div id="conjuntovalores">
+                    <div class="w3-col">
+                        <img src="imagens/valores.png" id="imgvalores">
+                    </div>
+                    <div id="serviços">
+                        <div id="mao">
+                            <a href="#agenda">
+                                <img class="w3-hover-opacity" src="imagens/mão.jpg">
+                                <h4>↑ Mão R$25,00 ↑</h4>
+                            </a>
+                        </div>
+                        <div id="pe">
+                            <a href="#agenda">
+                                <img class="w3-hover-opacity" src="imagens/pés.png">
+                                <h4>↑ Pé R$25,00 ↑</h4>
+                            </a>
+                        </div>
+                        <div id="pemao">
+                            <a href="#agenda">
+                                <img class="w3-hover-opacity" src="imagens/pé e mão.jpg">
+                                <h4>↑ Pé e Mão R$50,00 ↑</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,148 @@
+/*Home*/
+#home {
+
+    margin-bottom: 40%;
+    text-align: center;
+}
+
+#conjuntohome {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+}
+
+#imghome {
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+#bots {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+#botagenda {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0 50% 0 50%;
+    border-radius: 8px;
+    background-color: deeppink;
+}
+
+#botvalores {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0 57% 0 50%;
+    margin-top: 5%;
+    border-radius: 8px;
+    background-color: deeppink;
+}
+
+h3 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#iagenda {
+    margin-top: 30%;
+    margin-right: 30%;
+}
+
+#ivalores {
+    margin-top: 30%;
+    margin-right: 30%;
+}
+
+/*Agenda*/
+#imgagenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10% 0 0 30%;
+}
+
+#agenda {
+    margin-bottom: 30%;
+}
+
+#hora {
+    margin: 0;
+}
+
+form {
+    margin: 12% 40% 0 0;
+    display: grid;
+    flex-direction: column;
+
+}
+
+#time {
+    padding: 0 40% 0 40%;
+}
+
+#date {
+    text-align: center;
+}
+
+
+#conjuntoagenda {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Valores*/
+#conjuntovalores {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#serviços {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 25%;
+    width: 35%;
+    margin-top: 3%;
+}
+
+#botv {
+    margin-right: 17%;
+}
+
+#imgvalores {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 5% 0 0 10%;
+}
+
+#valor {
+    margin-bottom: 5%;
+}
+
+/*Geral*/
+img {
+    width: 50%;
+    border-radius: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#iconhome,
+#iconhomev {
+    margin: 0 0 0 3%;
+    color: deeppink;
+}
+
+h1 {
+    text-align: center;
+}
